@@ -12,7 +12,7 @@ import io.reactivex.schedulers.Schedulers;
 public class Demo1 {
     @SuppressLint("CheckResult")
     public static void main(String args[]) {
-        Disposable subscribe = NetWorkApi.getColumns()
+       /* Disposable subscribe = NetWorkApi.getColumns()
                 .flatMap(types -> Observable.fromIterable(types)
                         .map(type -> {
                             switch (type) {
@@ -43,6 +43,6 @@ public class Demo1 {
             Thread.sleep(1_000);
         } catch (InterruptedException e) {
 
-        }
+        }*/
     }
 }
